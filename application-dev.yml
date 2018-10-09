@@ -32,7 +32,7 @@ redis:
 ribbon:
   eager-load:
     enabled: true
-    clients: ins-auth,ins-upms-service
+    clients: ins-auth,ins-upms-service,ins-trade-service
   Httpclient:
     enabled: false
   OkHttp:
