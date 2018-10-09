@@ -27,7 +27,8 @@ spring:
 
 redis:
   cache:
-    expiration: 3601
+    #expiration: 3601
+    expiration: 60
 
 ribbon:
   eager-load:
