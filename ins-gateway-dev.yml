@@ -55,6 +55,5 @@ ignore:
     - /*/v2/api-docs
     - /swagger/api-docs
     - /webjars/**
-    - /trade/**
   clients:
     - app
