@@ -76,12 +76,18 @@ fdfs:
 spring:
   profiles: dev
 isvConfig:
+  IsvOrgId: 202210000000000001316
+  appId: 2018090700000286
+  subAppId: wx62a55dbdd041bb1d
+  subMerchId: 242972555
+  ChannelId: 240824008
+  isSign: true
   reqUrl: https://fcsupergw.dl.alipaydev.com/open/api/common/request2.htm
   payUrl: https://fcsupergw.dl.alipaydev.com/open/api/common/requestasync.htm
   uploadUrl: https://fcsupergwlite.dl.alipaydev.com/ant/mybank/merchantprod/merchant/uploadphoto.htm
-  IsvOrgId: 202210000000000001316
+  getUserIdUrl: https://openauth.alipay.com/oauth2/publicAppAuthorize.htm?app_id=2018073160766860&scope=auth_base&redirect_uri=https://baidu.com
+  openApiUrl: https://openapi.alipay.com/gateway.do
   version: 1.0.0
-  appId: 2018090700000286
 ---
 spring:
   profiles: prd
