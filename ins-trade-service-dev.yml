@@ -85,8 +85,10 @@ isvConfig:
   reqUrl: https://fcsupergw.dl.alipaydev.com/open/api/common/request2.htm
   payUrl: https://fcsupergw.dl.alipaydev.com/open/api/common/requestasync.htm
   uploadUrl: https://fcsupergwlite.dl.alipaydev.com/ant/mybank/merchantprod/merchant/uploadphoto.htm
-  getUserIdUrl: https://openauth.alipay.com/oauth2/publicAppAuthorize.htm?app_id=2018073160766860&scope=auth_base&redirect_uri=https://baidu.com
+  getUserIdUrl: https://openauth.alipay.com/oauth2/publicAppAuthorize.htm
   openApiUrl: https://openapi.alipay.com/gateway.do
+  qrPayUrl: https://hnxinshixian.com/api/pay/qrPay.htm
+  redirectUri: http://ecd501b2.ngrok.io/auth/ali
   version: 1.0.0
 ---
 spring:
