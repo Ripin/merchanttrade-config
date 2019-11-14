@@ -9,26 +9,26 @@ server:
     min-spare-threads: 50 # Minimum amount of worker threads
 
 spring:
-  redis:
-    remote: false        #cachecloud 获取
-    host: 47.106.91.233
-    port: 6379
-    password:
-  rabbitmq:
-    host: 47.106.91.233
-    port: 5672
-    username: sinosoft
-    password: ENC(s2rqCEwwn7JrCjAbhCoxqyTT2g1RnuwT)
-    virtual-host: /vhost_sinosoft
+  #redis:
+  #  remote: false        #cachecloud 获取
+  #  host: 47.106.91.233
+  #  port: 6379
+  #  password:
+  #rabbitmq:
+  #  host: 47.106.91.233
+  #  port: 5672
+  #  username: sinosoft
+  #  password: ENC(s2rqCEwwn7JrCjAbhCoxqyTT2g1RnuwT)
+  #  virtual-host: /vhost_sinosoft
   http:
     multipart:
       max-file-size: 1000MB
       max-request-size: 1000MB
 
-redis:
-  cache:
+#redis:
+ # cache:
     #expiration: 3601
-    expiration: 60
+  #  expiration: 60
 
 ribbon:
   eager-load:
